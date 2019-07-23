@@ -1,7 +1,7 @@
 <template id="">
   <!-- <ul> -->
     <!-- <li>{{ book.title }}: {{ book.author }}</li> -->
-    <li style="" v-for="book in books">{{ book.title}}: {{book.author}}</li>
+    <li v-for="book in books">{{ book.title}}: {{book.author}}</li>
   <!-- </ul> -->
 </template>
 <script type="text/javascript">
@@ -13,6 +13,9 @@
   }
 </script>
 <style media="screen">
-
+li {
+  display: block;
+  margin: 0 10px;
+}
 
 </style>
