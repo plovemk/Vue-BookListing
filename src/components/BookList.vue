@@ -2,8 +2,8 @@
 <template id="">
   <div class="">
     <h1>{{ title }}</h1>
-      <ul style="list-style-type: none;padding: 0;display: block; margin: 0 10px;">
-        <li v-for="books in books">{{ books.title}}: {{books.author}}</li>
+      <ul style="list-style-type: none;padding: 0;">
+        <li style="display: block; margin: 0 10px;" v-for="book in books">{{ book.title}}: {{book.author}}</li>
       </ul>
 
   </div>
